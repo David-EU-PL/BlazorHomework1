@@ -1,0 +1,8 @@
+﻿@page "/homework/{header?}"
+
+<PageTitle>Homework</PageTitle>
+
+<h1>
+    @(Header ?? "Homework")
+</h1>
+<button class="btn btn-primary" @onclick="GoToHome">Home</button>
